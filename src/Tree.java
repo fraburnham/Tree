@@ -98,7 +98,7 @@ public class Tree<T> {
      * @param s the stack that the calling method should place a rootNode onto
      * @return the first node that matches if it exists, null otherwise
      */
-    private Node depthFirstSeachLoop(Compare<T> comp, T value, Stack<Node> s) {
+    private Node depthFirstSearchLoop(Compare<T> comp, T value, Stack<Node> s) {
         while (!s.empty()) {
             Node n = s.pop();
             //run check, return the matching node if we have a match
@@ -125,7 +125,7 @@ public class Tree<T> {
     public Node findNode(Compare<T> comp, T value) {
         Stack<Node> s = new Stack<Node>();
         s.add(rootNode);
-        return depthFirstSeachLoop(comp, value, s);
+        return depthFirstSearchLoop(comp, value, s);
     }
 
     /**
@@ -138,7 +138,7 @@ public class Tree<T> {
     public Node findNode(Compare<T> comp, T value, Node rootNode) {
         Stack<Node> s = new Stack<Node>();
         s.add(rootNode);
-        return depthFirstSeachLoop(comp, value, s);
+        return depthFirstSearchLoop(comp, value, s);
     }
 
     public Node newNode(T data) {
