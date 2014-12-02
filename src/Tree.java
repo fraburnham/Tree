@@ -29,14 +29,6 @@ public class Tree<T> {
         }
 
         /**
-         * Create a new child node.
-         * @param root this child's root node
-         */
-        public Node(Node root) {
-            this.root = root;
-        }
-
-        /**
          * Set the root node for this node.
          * @param root the desired root node
          */
@@ -91,26 +83,46 @@ public class Tree<T> {
     public Node rootNode = new Node();
 
     /**
+     * Create a new Node to add to the tree, or replace an existing node.
+     * @param data the node's default data
+     * @return the created node
+     */
+    public Node newNode(T data) {
+        return new Node(data);
+    }
+
+    /**
+     * Push the children of node n onto stack s
+     * @param s the existing stack
+     * @param n the node to use
+     * @return the new stack with the node's children in the front
+     */
+    private Stack<Node> pushChildren(Stack<Node> s, Node n) {
+        int numChildren = n.getNumChildren();
+        for (int i = --numChildren; i >= 0; i--) {
+            //add children to the s
+            s.push(n.getChild(i));
+        }
+        return s;
+    }
+
+    /**
      * Internal loop algo to visit and compare at every node. Builds a stack
      * as it travels depth first down the tree.
-     * @param comp Compare interface passed to perform equality checks
+     * @param comp ITree interface passed to perform equality checks
      * @param value Value to pass to comp for equality check
      * @param s the stack that the calling method should place a rootNode onto
      * @return the first node that matches if it exists, null otherwise
      */
-    private Node depthFirstSearchLoop(Compare<T> comp, T value, Stack<Node> s) {
+    private Node depthFirstSearchLoop(ITree<T> comp, T value, Stack<Node> s) {
         while (!s.empty()) {
             Node n = s.pop();
             //run check, return the matching node if we have a match
-            if (comp.equals(value, n.data)) {
+            if (comp.nodeDataEquals(value, n.data)) {
                 return n;
             }
             //get children
-            int numChildren = n.getNumChildren();
-            for (int i = 0; i < numChildren; i++) {
-                //add children to the s
-                s.add(n.getChild(i));
-            }
+            s = pushChildren(s, n);
         }
         //visited every node and none of them matched
         return null;
@@ -118,37 +130,75 @@ public class Tree<T> {
 
     /**
      * Find a node whose data matches value in this tree.
-     * @param comp Compare interface passed to perform equality check
-     * @param value Value to search for
-     * @return the first node that matches if it exists, null otherwise
-     */
-    public Node findNode(Compare<T> comp, T value) {
-        Stack<Node> s = new Stack<Node>();
-        s.add(rootNode);
-        return depthFirstSearchLoop(comp, value, s);
-    }
-
-    /**
-     * Find a node whose data matches value in this tree.
-     * @param comp Compare interface passed to perform equality check
+     * @param comp ITree interface passed to perform equality check
      * @param value Value to search for
      * @param rootNode The node to start searching from, depth first
      * @return the first node that matches if it exists, null otherwise
      */
-    public Node findNode(Compare<T> comp, T value, Node rootNode) {
+    public Node findNode(ITree<T> comp, T value, Node rootNode) {
         Stack<Node> s = new Stack<Node>();
-        s.add(rootNode);
+        s.push(rootNode);
         return depthFirstSearchLoop(comp, value, s);
     }
 
-    public Node newNode(T data) {
-        return new Node(data);
-    }
-    /*
-    On a tree we should be able to do things like
-    findNode
-    getPath - what is a meaningful way to represent a path? maybe
-    [rootNode childindex childindex childindex etc] as an array
-    maybe some tree creation methods
+    /**
+     * Find the path from Node n to the rootNode. A rootNode is a node whose
+     * rootNode == null.
+     * @param n the node to start from
+     * @return a stack of nodes from root to n
      */
+    public Stack<Node> pathToRoot(Node n) {
+        Stack<Node> path = new Stack<Node>();
+        path.push(n); //push self onto stack
+
+        while(n.getRoot() != null) {
+            n = n.getRoot();
+            path.push(n);
+        }
+
+        return path;
+    }
+
+    /**
+     * Find the shortest path between any two nodes on the same tree.
+     * @param a starting node
+     * @param b ending node
+     * @return a stack of nodes with a as the start and b as the end
+     */
+    public Stack<Node> getPath(Node a, Node b) {
+        boolean path = false;
+        Stack<Node> pathA = pathToRoot(a);
+        Stack<Node> pathB = pathToRoot(b);
+
+        //might be able to iterate over this...
+        while (!pathA.empty() && !pathB.empty()) {
+            pathA.pop();
+            Node tb = pathB.pop();
+            if (pathA.peek() != pathB.peek()) { //found the first node that is the diff in both paths to root
+                pathB.push(tb);
+                while(!pathA.empty()) { //pop off pathA and push onto pathB until pathA is empty
+                    pathB.push(pathA.pop());
+                }
+            }
+        }
+
+        return pathB;
+    }
+
+    /**
+     * Print a tree (or a sub-tree). Each node is passed to ITree.print().
+     * @param rootNode Node to start printing from
+     */
+    public void printTree(ITree<T> it, Node rootNode) {
+        Stack<Node> s = new Stack<Node>();
+        s.push(rootNode);
+
+        while (!s.empty()) {
+            //print this node
+            Node n = s.pop();
+            System.out.println(it.toString(n.getRoot()) + ": " + it.toString(n));
+            //push children on the stack
+            s = pushChildren(s, n);
+        }
+    }
 }
