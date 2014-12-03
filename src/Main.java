@@ -38,9 +38,7 @@ public class Main {
         tree.printTree(it, tree.rootNode);
 
         Stack<Tree<Integer>.Node> path = tree.pathToRoot(tree.findNode(it, 4, tree.rootNode));
-        /*for (Tree<Integer>.Node node : path) {
-            System.out.print(it.toString(node) + " ");
-        }*/
+
         while(!path.empty()) {
             System.out.print(it.toString(path.pop()) + " ");
         }

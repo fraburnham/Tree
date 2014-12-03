@@ -7,10 +7,13 @@ import java.util.Stack;
  * A simple way to represent trees.
  */
 public class Tree<T> {
+    /**
+     * Tree.Node is a class that describes a node (or leaf) of the tree.
+     */
     public class Node {
         /** Any data the node needs to store. */
         public T data;
-        /** This node's root. This value is null for the root node. */
+        /** This node's root (parent). This value is null for the root node. */
         private Node root = null;
         /** This node's children. Children are added with addChild. */
         private List<Node> children = new ArrayList<Node>();
@@ -76,6 +79,14 @@ public class Tree<T> {
         public void addChild(Node child) {
             child.setRoot(this);
             children.add(child);
+        }
+
+        /**
+         * Remove a child from this node.
+         * @param childIndex the child's index in List<Node> children
+         */
+        public void removeChild(int childIndex) {
+            children.remove(childIndex);
         }
     }
 
