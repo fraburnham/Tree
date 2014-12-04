@@ -48,6 +48,22 @@ public class Tree<T> {
         }
 
         /**
+         * Get this node's data.
+         * @return the data held by this node
+         */
+        public T getData() {
+            return data;
+        }
+
+        /**
+         * Set this node's data.
+         * @param newData the new data for the node
+         */
+        public void setData(T newData) {
+            data = newData;
+        }
+
+        /**
          * Get the child at the given index.
          * @param child the index of the desired child
          * @return the child Node
@@ -140,6 +156,51 @@ public class Tree<T> {
     }
 
     /**
+     * Internal loop to search the tree limited by depth from the node(s) on s.
+     * @param comp ITree interface passed to perform equality check
+     * @param value Value to pass to comp for equality check
+     * @param s the stack that the calling method should place a rootNode onto
+     * @param depth the maximum vertical distance from the rootNode
+     * @return the first node that matches if it exists, null otherwise
+     */
+    private Node depthLimitedSearchLoop(ITree<T> comp, T value, Stack<Node> s, int depth) {
+        //push all the children that are within depth onto the stack
+        for (int x = 0; x < depth; x++) {
+            //stack of nodes this depth
+            Stack<Node> nodes = new Stack<Node>();
+            int len = s.size();
+
+            for (int i = 0; i < len; i++) {
+                nodes.push(s.pop());
+
+                if (comp.nodeDataEquals(value, nodes.get(i).data)) {
+                    return nodes.get(i);
+                }
+            }
+
+            for (Node n : nodes) {
+                s = pushChildren(s, n);
+            }
+        }
+        //visited every node and none of them matched
+        return null;
+    }
+
+    /**
+     * Find a node whose data matches value in this tree, limited by depth.
+     * @param comp ITree interface passed to perform equality check
+     * @param value Value to search for
+     * @param rootNode Node to start searching from
+     * @param depth Maximum vertical distance from the rootNode
+     * @return the first node that matches if it exists, null otherwise
+     */
+    public Node findNode(ITree<T> comp, T value, Node rootNode, int depth) {
+        Stack<Node> s = new Stack<Node>();
+        s.push(rootNode);
+        return depthLimitedSearchLoop(comp, value, s, depth);
+    }
+
+    /**
      * Find a node whose data matches value in this tree.
      * @param comp ITree interface passed to perform equality check
      * @param value Value to search for
@@ -177,7 +238,6 @@ public class Tree<T> {
      * @return a stack of nodes with a as the start and b as the end
      */
     public Stack<Node> getPath(Node a, Node b) {
-        boolean path = false;
         Stack<Node> pathA = pathToRoot(a);
         Stack<Node> pathB = pathToRoot(b);
 
