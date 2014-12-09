@@ -165,21 +165,20 @@ public class Tree<T> {
      */
     private Node depthLimitedSearchLoop(ITree<T> comp, T value, Stack<Node> s, int depth) {
         //push all the children that are within depth onto the stack
-        for (int x = 0; x < depth; x++) {
-            //stack of nodes this depth
+        for (int x = 0; x <= depth; x++) {
             Stack<Node> nodes = new Stack<Node>();
             int len = s.size();
 
             for (int i = 0; i < len; i++) {
                 nodes.push(s.pop());
 
-                if (comp.nodeDataEquals(value, nodes.get(i).data)) {
-                    return nodes.get(i);
+                if (comp.nodeDataEquals(value, nodes.peek().data)) {
+                    return nodes.pop();
                 }
             }
 
-            for (Node n : nodes) {
-                s = pushChildren(s, n);
+            while (!nodes.empty()) {
+                s = pushChildren(s, nodes.pop());
             }
         }
         //visited every node and none of them matched

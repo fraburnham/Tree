@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08c3b22d-1c90-4f3f-ae2e-dc6b4b76613d" name="Default" comment="added depth limited search">
+    <list default="true" id="08c3b22d-1c90-4f3f-ae2e-dc6b4b76613d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tree.java" afterPath="$PROJECT_DIR$/src/Tree.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -34,20 +34,20 @@
       <file leaf-file-name="Tree.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3043478" vertical-offset="1575" max-vertical-offset="2322">
-              <caret line="239" column="48" selection-start-line="239" selection-start-column="48" selection-end-line="239" selection-end-column="48" />
+            <state vertical-scroll-proportion="1.1489362" vertical-offset="0" max-vertical-offset="1782">
+              <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#Node#0;class#Tree#0" expanded="false" />
                 <element signature="method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
                 <element signature="method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
-                <element signature="e#3090#3091#0" expanded="true" />
-                <element signature="e#3127#3128#0" expanded="true" />
+                <element signature="method#pushChildren#0;class#Tree#0" expanded="false" />
                 <element signature="method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
                 <element signature="method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
                 <element signature="method#findNode#0;class#Tree#0" expanded="false" />
-                <element signature="e#6146#6152#0" expanded="true" />
+                <element signature="method#findNode#1;class#Tree#0" expanded="false" />
                 <element signature="method#pathToRoot#0;class#Tree#0" expanded="false" />
+                <element signature="method#getPath#0;class#Tree#0" expanded="false" />
                 <element signature="method#printTree#0;class#Tree#0" expanded="false" />
               </folding>
             </state>
@@ -128,7 +128,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -181,7 +181,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,15 +231,6 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="ClojureREPL" factoryName="Local">
-      <setting name="useLein" value="true" />
-      <setting name="leinProjectName" value="" />
-      <module name="" />
-      <setting name="jvmArgs" value="" />
-      <setting name="parameters" value="" />
-      <setting name="workingDir" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -248,17 +239,13 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="ClojureREPL" factoryName="Local">
+      <setting name="useLein" value="true" />
+      <setting name="leinProjectName" value="" />
       <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -286,6 +273,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -376,6 +376,11 @@
       <created>1417496417844</created>
       <updated>1417496417844</updated>
     </task>
+    <task id="LOCAL-00001" summary="added depth limited search">
+      <created>1417661198999</created>
+      <updated>1417661198999</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -395,7 +400,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -408,6 +412,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988626" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -439,6 +444,117 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2214">
+          <caret line="167" column="42" selection-start-line="167" selection-start-column="42" selection-end-line="167" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="method#pushChildren#0;class#Tree#0" expanded="false" />
+            <element signature="method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="method#findNode#0;class#Tree#0" expanded="false" />
+            <element signature="method#findNode#1;class#Tree#0" expanded="false" />
+            <element signature="method#pathToRoot#0;class#Tree#0" expanded="false" />
+            <element signature="method#getPath#0;class#Tree#0" expanded="false" />
+            <element signature="method#printTree#0;class#Tree#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ITree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1080">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="2250">
+          <caret line="210" column="0" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="method#pushChildren#0;class#Tree#0" expanded="false" />
+            <element signature="method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="method#findNode#0;class#Tree#0" expanded="false" />
+            <element signature="method#findNode#1;class#Tree#0" expanded="false" />
+            <element signature="method#pathToRoot#0;class#Tree#0" expanded="false" />
+            <element signature="method#getPath#0;class#Tree#0" expanded="false" />
+            <element signature="method#printTree#0;class#Tree#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ITree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1080">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="803" max-vertical-offset="2322">
+          <caret line="167" column="28" selection-start-line="167" selection-start-column="28" selection-end-line="167" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="method#pushChildren#0;class#Tree#0" expanded="false" />
+            <element signature="method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="method#findNode#0;class#Tree#0" expanded="false" />
+            <element signature="method#findNode#1;class#Tree#0" expanded="false" />
+            <element signature="method#pathToRoot#0;class#Tree#0" expanded="false" />
+            <element signature="method#getPath#0;class#Tree#0" expanded="false" />
+            <element signature="method#printTree#0;class#Tree#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ITree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1080">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="591" max-vertical-offset="2628">
           <caret line="160" column="39" selection-start-line="160" selection-start-column="39" selection-end-line="160" selection-end-column="39" />
           <folding>
@@ -446,13 +562,13 @@
             <element signature="class#Node#0;class#Tree#0" expanded="false" />
             <element signature="method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
             <element signature="method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
-            <element signature="e#3090#3091#0" expanded="true" />
-            <element signature="e#3127#3128#0" expanded="true" />
+            <element signature="method#pushChildren#0;class#Tree#0" expanded="false" />
             <element signature="method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
             <element signature="method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
             <element signature="method#findNode#0;class#Tree#0" expanded="false" />
-            <element signature="e#6146#6152#0" expanded="true" />
+            <element signature="method#findNode#1;class#Tree#0" expanded="false" />
             <element signature="method#pathToRoot#0;class#Tree#0" expanded="false" />
+            <element signature="method#getPath#0;class#Tree#0" expanded="false" />
             <element signature="method#printTree#0;class#Tree#0" expanded="false" />
           </folding>
         </state>
@@ -483,13 +599,13 @@
             <element signature="class#Node#0;class#Tree#0" expanded="false" />
             <element signature="method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
             <element signature="method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
-            <element signature="e#3090#3091#0" expanded="true" />
-            <element signature="e#3127#3128#0" expanded="true" />
+            <element signature="method#pushChildren#0;class#Tree#0" expanded="false" />
             <element signature="method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
             <element signature="method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
             <element signature="method#findNode#0;class#Tree#0" expanded="false" />
-            <element signature="e#6146#6152#0" expanded="true" />
+            <element signature="method#findNode#1;class#Tree#0" expanded="false" />
             <element signature="method#pathToRoot#0;class#Tree#0" expanded="false" />
+            <element signature="method#getPath#0;class#Tree#0" expanded="false" />
             <element signature="method#printTree#0;class#Tree#0" expanded="false" />
           </folding>
         </state>
@@ -520,13 +636,13 @@
             <element signature="class#Node#0;class#Tree#0" expanded="false" />
             <element signature="method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
             <element signature="method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
-            <element signature="e#3090#3091#0" expanded="true" />
-            <element signature="e#3127#3128#0" expanded="true" />
+            <element signature="method#pushChildren#0;class#Tree#0" expanded="false" />
             <element signature="method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
             <element signature="method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
             <element signature="method#findNode#0;class#Tree#0" expanded="false" />
-            <element signature="e#6146#6152#0" expanded="true" />
+            <element signature="method#findNode#1;class#Tree#0" expanded="false" />
             <element signature="method#pathToRoot#0;class#Tree#0" expanded="false" />
+            <element signature="method#getPath#0;class#Tree#0" expanded="false" />
             <element signature="method#printTree#0;class#Tree#0" expanded="false" />
           </folding>
         </state>
@@ -549,13 +665,13 @@
             <element signature="class#Node#0;class#Tree#0" expanded="false" />
             <element signature="method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
             <element signature="method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
-            <element signature="e#3090#3091#0" expanded="true" />
-            <element signature="e#3127#3128#0" expanded="true" />
+            <element signature="method#pushChildren#0;class#Tree#0" expanded="false" />
             <element signature="method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
             <element signature="method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
             <element signature="method#findNode#0;class#Tree#0" expanded="false" />
-            <element signature="e#6146#6152#0" expanded="true" />
+            <element signature="method#findNode#1;class#Tree#0" expanded="false" />
             <element signature="method#pathToRoot#0;class#Tree#0" expanded="false" />
+            <element signature="method#getPath#0;class#Tree#0" expanded="false" />
             <element signature="method#printTree#0;class#Tree#0" expanded="false" />
           </folding>
         </state>
@@ -587,20 +703,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3043478" vertical-offset="1575" max-vertical-offset="2322">
-          <caret line="239" column="48" selection-start-line="239" selection-start-column="48" selection-end-line="239" selection-end-column="48" />
+        <state vertical-scroll-proportion="1.1489362" vertical-offset="0" max-vertical-offset="1782">
+          <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#Node#0;class#Tree#0" expanded="false" />
             <element signature="method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
             <element signature="method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
-            <element signature="e#3090#3091#0" expanded="true" />
-            <element signature="e#3127#3128#0" expanded="true" />
+            <element signature="method#pushChildren#0;class#Tree#0" expanded="false" />
             <element signature="method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
             <element signature="method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
             <element signature="method#findNode#0;class#Tree#0" expanded="false" />
-            <element signature="e#6146#6152#0" expanded="true" />
+            <element signature="method#findNode#1;class#Tree#0" expanded="false" />
             <element signature="method#pathToRoot#0;class#Tree#0" expanded="false" />
+            <element signature="method#getPath#0;class#Tree#0" expanded="false" />
             <element signature="method#printTree#0;class#Tree#0" expanded="false" />
           </folding>
         </state>
