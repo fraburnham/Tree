@@ -7,7 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08c3b22d-1c90-4f3f-ae2e-dc6b4b76613d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tree.java" afterPath="$PROJECT_DIR$/src/Tree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/TreeTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree.iml" afterPath="$PROJECT_DIR$/Tree.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Tree.iws" />
@@ -31,24 +32,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Tree.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Tree.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1489362" vertical-offset="0" max-vertical-offset="1782">
-              <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2214">
+              <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="class#Node#0;class#Tree#0" expanded="false" />
-                <element signature="method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+                <element signature="docComment;class#Tree#0" expanded="false" />
+                <element signature="docComment;class#Node#0;class#Tree#0" expanded="false" />
+                <element signature="docComment;method#getData#0;class#Node#0;class#Tree#0" expanded="false" />
+                <element signature="docComment;method#setData#0;class#Node#0;class#Tree#0" expanded="false" />
+                <element signature="docComment;method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+                <element signature="docComment;method#getNumChildren#0;class#Node#0;class#Tree#0" expanded="false" />
+                <element signature="docComment;method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
                 <element signature="method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
+                <element signature="docComment;method#removeChild#0;class#Node#0;class#Tree#0" expanded="false" />
+                <element signature="docComment;method#newNode#0;class#Tree#0" expanded="false" />
+                <element signature="docComment;method#pushChildren#0;class#Tree#0" expanded="false" />
                 <element signature="method#pushChildren#0;class#Tree#0" expanded="false" />
-                <element signature="method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+                <element signature="docComment;method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+                <element signature="docComment;method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
                 <element signature="method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
+                <element signature="docComment;method#findNode#0;class#Tree#0" expanded="false" />
                 <element signature="method#findNode#0;class#Tree#0" expanded="false" />
-                <element signature="method#findNode#1;class#Tree#0" expanded="false" />
+                <element signature="docComment;method#pathToRoot#0;class#Tree#0" expanded="false" />
                 <element signature="method#pathToRoot#0;class#Tree#0" expanded="false" />
+                <element signature="docComment;method#getPath#0;class#Tree#0" expanded="false" />
                 <element signature="method#getPath#0;class#Tree#0" expanded="false" />
+                <element signature="docComment;method#printTree#0;class#Tree#0" expanded="false" />
                 <element signature="method#printTree#0;class#Tree#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/TreeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.038297873" vertical-offset="0" max-vertical-offset="940">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <folding>
+                <element signature="class#IntegerTree#0;class#TreeTest#0" expanded="false" />
+                <element signature="e#764#773#0" expanded="true" />
+                <element signature="method#TreeTest#0;class#TreeTest#0" expanded="false" />
+                <element signature="method#testNewNode#0;class#TreeTest#0" expanded="false" />
+                <element signature="e#1738#1747#0" expanded="true" />
+                <element signature="method#testFindNode1#0;class#TreeTest#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -67,8 +96,8 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1080">
-              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="387" max-vertical-offset="1008">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -91,6 +120,7 @@
         <option value="$PROJECT_DIR$/src/ITree.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Tree.java" />
+        <option value="$PROJECT_DIR$/test/TreeTest.java" />
       </list>
     </option>
   </component>
@@ -98,7 +128,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="1" />
+    <option name="x" value="1" />
+    <option name="y" value="3" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -129,6 +160,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -181,7 +213,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,8 +233,90 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TreeTest.testFindNode1">
+    <configuration default="false" name="TreeTest.testNewNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tree" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TreeTest" />
+      <option name="METHOD_NAME" value="testNewNode" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tree" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TreeTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TreeTest.testFindNode1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tree" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TreeTest" />
+      <option name="METHOD_NAME" value="testFindNode1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -231,12 +344,65 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Tree" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Tree" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Tree" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Local">
@@ -246,6 +412,49 @@
       <setting name="jvmArgs" value="" />
       <setting name="parameters" value="" />
       <setting name="workingDir" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Tree" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -275,19 +484,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
@@ -300,6 +496,25 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Tree" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -320,6 +535,25 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Tree" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -358,9 +592,19 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TreeTest.testNewNode" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TreeTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TreeTest.testFindNode1" />
     </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TreeTest.testFindNode1" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TreeTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TreeTest.testNewNode" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -380,12 +624,36 @@
       <created>1417661198999</created>
       <updated>1417661198999</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="thought there was a bug here, it was in fp-growth">
+      <created>1418160851203</created>
+      <updated>1418160851203</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="1" width="1920" height="1080" extended-state="6" />
-    <editor active="false" />
+    <frame x="1" y="3" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -395,12 +663,13 @@
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991727" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988626" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -408,11 +677,11 @@
       <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.115015976" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988626" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920536" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988626" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -432,7 +701,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="added depth limited search" />
-    <option name="LAST_COMMIT_MESSAGE" value="added depth limited search" />
+    <MESSAGE value="thought there was a bug here, it was in fp-growth" />
+    <option name="LAST_COMMIT_MESSAGE" value="thought there was a bug here, it was in fp-growth" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -444,20 +714,175 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="1440">
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#Tree#0" expanded="false" />
+            <element signature="docComment;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getData#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#setData#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getNumChildren#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#removeChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#newNode#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#pushChildren#0;class#Tree#0" expanded="false" />
+            <element signature="method#pushChildren#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#findNode#0;class#Tree#0" expanded="false" />
+            <element signature="method#findNode#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#pathToRoot#0;class#Tree#0" expanded="false" />
+            <element signature="method#pathToRoot#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getPath#0;class#Tree#0" expanded="false" />
+            <element signature="method#getPath#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#printTree#0;class#Tree#0" expanded="false" />
+            <element signature="method#printTree#0;class#Tree#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ITree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1080">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3510" max-vertical-offset="5040">
+          <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#Tree#0" expanded="false" />
+            <element signature="docComment;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getData#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#setData#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getNumChildren#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#removeChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#newNode#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#pushChildren#0;class#Tree#0" expanded="false" />
+            <element signature="method#pushChildren#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#findNode#0;class#Tree#0" expanded="false" />
+            <element signature="method#findNode#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#pathToRoot#0;class#Tree#0" expanded="false" />
+            <element signature="method#pathToRoot#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getPath#0;class#Tree#0" expanded="false" />
+            <element signature="method#getPath#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#printTree#0;class#Tree#0" expanded="false" />
+            <element signature="method#printTree#0;class#Tree#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ITree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1008">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="842" max-vertical-offset="1782">
+          <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#Tree#0" expanded="false" />
+            <element signature="docComment;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getData#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#setData#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getNumChildren#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#removeChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#newNode#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#pushChildren#0;class#Tree#0" expanded="false" />
+            <element signature="method#pushChildren#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#findNode#0;class#Tree#0" expanded="false" />
+            <element signature="method#findNode#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#pathToRoot#0;class#Tree#0" expanded="false" />
+            <element signature="method#pathToRoot#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getPath#0;class#Tree#0" expanded="false" />
+            <element signature="method#getPath#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#printTree#0;class#Tree#0" expanded="false" />
+            <element signature="method#printTree#0;class#Tree#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ITree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1080">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2214">
           <caret line="167" column="42" selection-start-line="167" selection-start-column="42" selection-end-line="167" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#Node#0;class#Tree#0" expanded="false" />
-            <element signature="method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;class#Tree#0" expanded="false" />
+            <element signature="docComment;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getData#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#setData#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getNumChildren#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
             <element signature="method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#removeChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#newNode#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#pushChildren#0;class#Tree#0" expanded="false" />
             <element signature="method#pushChildren#0;class#Tree#0" expanded="false" />
-            <element signature="method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
             <element signature="method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#findNode#0;class#Tree#0" expanded="false" />
             <element signature="method#findNode#0;class#Tree#0" expanded="false" />
-            <element signature="method#findNode#1;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#pathToRoot#0;class#Tree#0" expanded="false" />
             <element signature="method#pathToRoot#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getPath#0;class#Tree#0" expanded="false" />
             <element signature="method#getPath#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#printTree#0;class#Tree#0" expanded="false" />
             <element signature="method#printTree#0;class#Tree#0" expanded="false" />
           </folding>
         </state>
@@ -484,17 +909,28 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="2250">
           <caret line="210" column="0" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#Node#0;class#Tree#0" expanded="false" />
-            <element signature="method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;class#Tree#0" expanded="false" />
+            <element signature="docComment;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getData#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#setData#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getNumChildren#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
             <element signature="method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#removeChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#newNode#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#pushChildren#0;class#Tree#0" expanded="false" />
             <element signature="method#pushChildren#0;class#Tree#0" expanded="false" />
-            <element signature="method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
             <element signature="method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#findNode#0;class#Tree#0" expanded="false" />
             <element signature="method#findNode#0;class#Tree#0" expanded="false" />
-            <element signature="method#findNode#1;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#pathToRoot#0;class#Tree#0" expanded="false" />
             <element signature="method#pathToRoot#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getPath#0;class#Tree#0" expanded="false" />
             <element signature="method#getPath#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#printTree#0;class#Tree#0" expanded="false" />
             <element signature="method#printTree#0;class#Tree#0" expanded="false" />
           </folding>
         </state>
@@ -521,17 +957,28 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="803" max-vertical-offset="2322">
           <caret line="167" column="28" selection-start-line="167" selection-start-column="28" selection-end-line="167" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#Node#0;class#Tree#0" expanded="false" />
-            <element signature="method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;class#Tree#0" expanded="false" />
+            <element signature="docComment;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getData#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#setData#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getNumChildren#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
             <element signature="method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#removeChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#newNode#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#pushChildren#0;class#Tree#0" expanded="false" />
             <element signature="method#pushChildren#0;class#Tree#0" expanded="false" />
-            <element signature="method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
             <element signature="method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#findNode#0;class#Tree#0" expanded="false" />
             <element signature="method#findNode#0;class#Tree#0" expanded="false" />
-            <element signature="method#findNode#1;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#pathToRoot#0;class#Tree#0" expanded="false" />
             <element signature="method#pathToRoot#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getPath#0;class#Tree#0" expanded="false" />
             <element signature="method#getPath#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#printTree#0;class#Tree#0" expanded="false" />
             <element signature="method#printTree#0;class#Tree#0" expanded="false" />
           </folding>
         </state>
@@ -558,17 +1005,28 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="591" max-vertical-offset="2628">
           <caret line="160" column="39" selection-start-line="160" selection-start-column="39" selection-end-line="160" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#Node#0;class#Tree#0" expanded="false" />
-            <element signature="method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;class#Tree#0" expanded="false" />
+            <element signature="docComment;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getData#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#setData#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getNumChildren#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
             <element signature="method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#removeChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#newNode#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#pushChildren#0;class#Tree#0" expanded="false" />
             <element signature="method#pushChildren#0;class#Tree#0" expanded="false" />
-            <element signature="method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
             <element signature="method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#findNode#0;class#Tree#0" expanded="false" />
             <element signature="method#findNode#0;class#Tree#0" expanded="false" />
-            <element signature="method#findNode#1;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#pathToRoot#0;class#Tree#0" expanded="false" />
             <element signature="method#pathToRoot#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getPath#0;class#Tree#0" expanded="false" />
             <element signature="method#getPath#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#printTree#0;class#Tree#0" expanded="false" />
             <element signature="method#printTree#0;class#Tree#0" expanded="false" />
           </folding>
         </state>
@@ -595,17 +1053,28 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1436" max-vertical-offset="2448">
           <caret line="87" column="49" selection-start-line="87" selection-start-column="49" selection-end-line="87" selection-end-column="49" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#Node#0;class#Tree#0" expanded="false" />
-            <element signature="method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;class#Tree#0" expanded="false" />
+            <element signature="docComment;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getData#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#setData#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getNumChildren#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
             <element signature="method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#removeChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#newNode#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#pushChildren#0;class#Tree#0" expanded="false" />
             <element signature="method#pushChildren#0;class#Tree#0" expanded="false" />
-            <element signature="method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
             <element signature="method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#findNode#0;class#Tree#0" expanded="false" />
             <element signature="method#findNode#0;class#Tree#0" expanded="false" />
-            <element signature="method#findNode#1;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#pathToRoot#0;class#Tree#0" expanded="false" />
             <element signature="method#pathToRoot#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getPath#0;class#Tree#0" expanded="false" />
             <element signature="method#getPath#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#printTree#0;class#Tree#0" expanded="false" />
             <element signature="method#printTree#0;class#Tree#0" expanded="false" />
           </folding>
         </state>
@@ -632,17 +1101,28 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1422">
           <caret line="118" column="7" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#Node#0;class#Tree#0" expanded="false" />
-            <element signature="method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;class#Tree#0" expanded="false" />
+            <element signature="docComment;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getData#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#setData#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getNumChildren#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
             <element signature="method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#removeChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#newNode#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#pushChildren#0;class#Tree#0" expanded="false" />
             <element signature="method#pushChildren#0;class#Tree#0" expanded="false" />
-            <element signature="method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
             <element signature="method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#findNode#0;class#Tree#0" expanded="false" />
             <element signature="method#findNode#0;class#Tree#0" expanded="false" />
-            <element signature="method#findNode#1;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#pathToRoot#0;class#Tree#0" expanded="false" />
             <element signature="method#pathToRoot#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getPath#0;class#Tree#0" expanded="false" />
             <element signature="method#getPath#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#printTree#0;class#Tree#0" expanded="false" />
             <element signature="method#printTree#0;class#Tree#0" expanded="false" />
           </folding>
         </state>
@@ -661,17 +1141,28 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="1422">
           <caret line="118" column="7" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#Node#0;class#Tree#0" expanded="false" />
-            <element signature="method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;class#Tree#0" expanded="false" />
+            <element signature="docComment;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getData#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#setData#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getNumChildren#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
             <element signature="method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#removeChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#newNode#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#pushChildren#0;class#Tree#0" expanded="false" />
             <element signature="method#pushChildren#0;class#Tree#0" expanded="false" />
-            <element signature="method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
             <element signature="method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#findNode#0;class#Tree#0" expanded="false" />
             <element signature="method#findNode#0;class#Tree#0" expanded="false" />
-            <element signature="method#findNode#1;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#pathToRoot#0;class#Tree#0" expanded="false" />
             <element signature="method#pathToRoot#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getPath#0;class#Tree#0" expanded="false" />
             <element signature="method#getPath#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#printTree#0;class#Tree#0" expanded="false" />
             <element signature="method#printTree#0;class#Tree#0" expanded="false" />
           </folding>
         </state>
@@ -695,29 +1186,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1008">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="387" max-vertical-offset="1008">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1489362" vertical-offset="0" max-vertical-offset="1782">
-          <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2214">
+          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#Node#0;class#Tree#0" expanded="false" />
-            <element signature="method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;class#Tree#0" expanded="false" />
+            <element signature="docComment;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getData#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#setData#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getNumChildren#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
             <element signature="method#addChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#removeChild#0;class#Node#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#newNode#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#pushChildren#0;class#Tree#0" expanded="false" />
             <element signature="method#pushChildren#0;class#Tree#0" expanded="false" />
-            <element signature="method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#depthFirstSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
             <element signature="method#depthLimitedSearchLoop#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#findNode#0;class#Tree#0" expanded="false" />
             <element signature="method#findNode#0;class#Tree#0" expanded="false" />
-            <element signature="method#findNode#1;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#pathToRoot#0;class#Tree#0" expanded="false" />
             <element signature="method#pathToRoot#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#getPath#0;class#Tree#0" expanded="false" />
             <element signature="method#getPath#0;class#Tree#0" expanded="false" />
+            <element signature="docComment;method#printTree#0;class#Tree#0" expanded="false" />
             <element signature="method#printTree#0;class#Tree#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.038297873" vertical-offset="0" max-vertical-offset="940">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <element signature="class#IntegerTree#0;class#TreeTest#0" expanded="false" />
+            <element signature="e#764#773#0" expanded="true" />
+            <element signature="method#TreeTest#0;class#TreeTest#0" expanded="false" />
+            <element signature="method#testNewNode#0;class#TreeTest#0" expanded="false" />
+            <element signature="e#1738#1747#0" expanded="true" />
+            <element signature="method#testFindNode1#0;class#TreeTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
