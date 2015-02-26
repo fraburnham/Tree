@@ -92,9 +92,10 @@ public class Tree<T> {
          * Add a child to this node.
          * @param child the child Node to add to this node
          */
-        public void addChild(Node child) {
+        public Node addChild(Node child) {
             child.setRoot(this);
             children.add(child);
+            return child;
         }
 
         /**
@@ -160,7 +161,8 @@ public class Tree<T> {
      * @param comp ITree interface passed to perform equality check
      * @param value Value to pass to comp for equality check
      * @param s the stack that the calling method should place a rootNode onto
-     * @param depth the maximum vertical distance from the rootNode
+     * @param depth the maximum vertical distance from the rootNode, starting
+     *              from zero
      * @return the first node that matches if it exists, null otherwise
      */
     private Node depthLimitedSearchLoop(ITree<T> comp, T value, Stack<Node> s, int depth) {
